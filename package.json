@@ -1,0 +1,22 @@
+{
+  "name": "desafio_teste_batalha_naval",
+  "version": "1.0.0",
+  "description": "Casos de teste em JavaScript, com Jest, para a lógica do jogo Batalha Naval",
+  "private": true,
+  "type": "commonjs",
+  "main": "src/partida.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  },
+  "author": "Nicolas Kauan Vieira Da Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
